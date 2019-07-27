@@ -10,7 +10,7 @@ chrome_options.add_argument("--headless")
 options = webdriver.ChromeOptions()
 options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 # options.binary_location = '/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
-chrome_driver_binary = "/Users/rodrialejandro/Desktop/going_headless/chromedriver"
+chrome_driver_binary = "/Users/rodrialejandro/git/headlessChrome/going_headless/chromedriver"
 driver = webdriver.Chrome(chrome_driver_binary, chrome_options=options)
 # driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"), chrome_options=chrome_options)
 driver.get("http://www.youtube.com")  
